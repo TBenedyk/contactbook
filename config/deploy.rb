@@ -30,6 +30,8 @@ set :puma_preload_app, false
 set :sidekiq_config, "#{current_path}/config/sidekiq.yml"
 set :bundle_binstubs, nil
 
+set :pty,  false
+
 
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
