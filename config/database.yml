@@ -81,7 +81,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: postgresql
+  database: contactbook_production
   pool: 5
   host: localhost
   username: contactbook
