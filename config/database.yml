@@ -79,10 +79,7 @@ test:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
 production:
-  adapter: postgresql
-  encoding: unicode
+  <<: *default
   database: contactbook_production
-  pool: 5
-  host: localhost
   username: contactbook
-  password: password
+  password: <%= ENV['CONTACTBOOK_DATABASE_PASSWORD'] %>
