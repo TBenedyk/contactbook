@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: contactbook_production
-  username: scontactbook
+  username: contactbook
   password: <%= ENV['CONTACTBOOK_DATABASE_PASSWORD'] %>
