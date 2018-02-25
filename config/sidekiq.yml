@@ -1,5 +1,4 @@
 ---
-:pidfile: tmp/pids/sidekiq.pid
 development:
   :concurrency: 10
 production:
