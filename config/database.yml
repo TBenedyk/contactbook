@@ -82,4 +82,4 @@ production:
   <<: *default
   database: contactbook_production
   username: contactbook
-  password: contactbook
+  password: 
